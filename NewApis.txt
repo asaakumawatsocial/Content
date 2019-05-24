@@ -1,0 +1,15 @@
+1. Customer Login
+2. Customer Register
+3. Customer Forgot Password
+4. Change Password
+5. For Home page content
+6. For Brand wise products
+7. For Customer Wishlist
+8. For Customer Cart
+9. For Multiple Wishlist item deletion
+10.For Multiple items transfer from wishlist to cart
+11.For item sorting on produt serach page
+12.For globle product search 
+13.All Categories For DropDown
+14.All Brands For Dropdown
+15.
