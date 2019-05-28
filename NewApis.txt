@@ -8,8 +8,13 @@
 8. For Customer Cart
 9. For Multiple Wishlist item deletion
 10.For Multiple items transfer from wishlist to cart
-11.For item sorting on produt serach page
+11.For item sorting on product serach page
 12.For globle product search 
 13.All Categories For DropDown
 14.All Brands For Dropdown
-15.
+15.Product Reviews(Get Product wise , Save new review)
+16.Poduct Specification With product entity
+17.Manufacturers Names with product entity
+18.My reviews
+19.Homepage Slider
+20.Related Products
