@@ -18,3 +18,5 @@
 18.My reviews
 19.Homepage Slider
 20.Related Products
+21.Country List
+22.State List
