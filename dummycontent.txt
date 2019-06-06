@@ -1,0 +1,16 @@
+ <cv1:CarouselViewControl x:Name="myView" ItemsSource="{Binding Model.Images}" ShowIndicators="True">
+                                    <cv1:CarouselViewControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Image Aspect="Fill" >
+                                                <Image.Source>
+                                                    <UriImageSource Uri="{Binding Src}" 
+			                                        CacheValidity="30" 
+			                                        CachingEnabled="true"/>
+                                                </Image.Source>
+                                                <Image.GestureRecognizers>
+                                                    <TapGestureRecognizer Command="{Binding Source={x:Reference ProductDetailsPage}, Path=BindingContext.ImageClickCommand}" CommandParameter="{Binding .}"></TapGestureRecognizer>
+                                                </Image.GestureRecognizers>
+                                            </Image>
+                                        </DataTemplate>
+                                    </cv1:CarouselViewControl.ItemTemplate>
+                                </cv1:CarouselViewControl>
